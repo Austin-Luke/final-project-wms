@@ -1,15 +1,3 @@
-// const {Client} = require('pg')
-
-// const con = new Client ({
-//     host: "localhost",
-//     user: "postgres",
-//     port: 5432,
-//     password: "",
-//     database: "WMS",
-    
-// })
-
-// con.connect().then(() => console.log("connected"))
 
 const dotenv = require("dotenv")
     // requires dotenv package
@@ -122,7 +110,7 @@ const displayActions = async () => {
             case `5`: 
 
                 await mongoose.disconnect()
-                console.log(`You are now exiting the customer database.`)
+                console.log(`You are now exiting the Warehouse Management System.`)
                 return
 
             // Case 5 quits the app. 
