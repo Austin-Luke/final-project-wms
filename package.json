@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.2",
+    "pg": "^8.16.3",
+    "prompt-sync": "^4.2.0"
+  }
+}
